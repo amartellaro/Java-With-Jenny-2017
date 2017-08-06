@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=dict\ filters
+comment0.target=java.util.List\ filterAll(Dictionary,\ WordFilter[])
+numComments=1

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=atag
+comment0.target=java.lang.String\ getHrefFromLinkTag(java.lang.String)
+comment0.text=From\ <a\ href\="foo">bar</a>\ returns\ the\ foo\ part
+comment1.params=atag
+comment1.target=java.lang.String\ getDisplayTextFromLinkTag(java.lang.String)
+comment1.text=From\ <a\ href\="foo">bar</a>\ returns\ the\ bar\ part
+comment2.params=atag
+comment2.target=java.lang.String\ getTitleFromLinkTag(java.lang.String)
+comment2.text=From\ <a\ href\="foo"\ title\="baz">bar</a>\ returns\ the\ baz\ part
+comment3.params=atag
+comment3.target=java.lang.String\ getCssClassFromLinkTag(java.lang.String)
+comment3.text=From\ <a\ href\="foo"\ class\="cssname">bar</a>\ returns\ the\ cssname\ part
+comment4.params=url
+comment4.target=void\ fetchAndReport(java.lang.String)
+comment4.text=\r\n\ Fetches\ a\ web\ page\ at\ a\ given\ url\ and\ reports\ on\ what\ we\ found\ scraping\ through\ it.\r\n\ @param\ url\ A\ valid\ http\://whatever.com/\ style\ url\ address\r\n\ @throws\ MalformedURLException\ If\ the\ url\ passed\ in\ has\ typos\ or\ isn't\ actually\ a\ URL\r\n\ @throws\ IOException\ If\ the\ network\ connection\ dies\ while\ we're\ trying\ to\ read\ the\ web\ page\r\n
+comment5.params=url
+comment5.target=java.lang.String\ fetch(java.lang.String)
+comment5.text=\r\n\ Opens\ a\ connection\ to\ a\ web\ server,\ reads\ the\ HTML\ source\ for\ that\ page,\ and\ \r\n\ returns\ the\ source\ as\ a\ string.\r\n\ @param\ url\ A\ valid\ http\://whatever.com/\ style\ url\ address\r\n\ @return\ String\ containing\ the\ web\ page's\ source\ code\r\n\ @throws\ MalformedURLException\ If\ the\ url\ passed\ in\ has\ typos\ or\ isn't\ actually\ a\ URL\r\n\ @throws\ IOException\ If\ the\ network\ connection\ dies\ while\ we're\ trying\ to\ read\ the\ web\ page\r\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\r\n\ Takes\ a\ url\ interactively\ and\ runs\ the\ web\ scraper\ on\ it,\ producing\ a\ report.\r\n\ @param\ args\ Ignored\r\n\ @throws\ MalformedURLException\ If\ the\ url\ passed\ in\ has\ typos\ or\ isn't\ actually\ a\ URL\r\n\ @throws\ IOException\ If\ the\ network\ connection\ dies\ while\ we're\ trying\ to\ read\ the\ web\ page\r\n
+numComments=7

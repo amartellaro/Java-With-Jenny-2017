@@ -1,0 +1,9 @@
+lastname	firstname	studentid
+Fairy	Tooth	302342
+Bunny	Easter	302343
+Claus	Santa	302344
+Claus	Ami	302345
+Claus	Jeni	302346
+LittleLamb	Mary	302347
+Peep	Bo	302348
+Blue	Boy	302350
