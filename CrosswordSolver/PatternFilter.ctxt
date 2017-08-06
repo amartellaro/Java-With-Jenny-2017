@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.params=p
-comment0.target=PatternFilter(java.lang.String)
-comment1.params=word
-comment1.target=java.lang.String\ filter(java.lang.String)
-numComments=2
