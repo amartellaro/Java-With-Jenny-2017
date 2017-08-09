@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.params=l
-comment0.target=LengthFilter(int)
-comment1.params=word
-comment1.target=java.lang.String\ filter(java.lang.String)
-numComments=2
